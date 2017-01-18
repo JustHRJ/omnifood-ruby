@@ -4886,3 +4886,290 @@ Completed 200 OK in 79ms (Views: 77.8ms | ActiveRecord: 0.0ms)
 
 Started GET "/assets/ionicons.ttf?v=2.0.0" for 116.86.88.252 at 2017-01-18 06:03:25 +0000
 Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:05:51 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (35.6ms)
+Completed 200 OK in 190ms (Views: 188.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ionicons.ttf?v=2.0.0" for 116.86.88.252 at 2017-01-18 06:05:53 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:06:21 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 245ms (Views: 244.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:06:46 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (27.5ms)
+Completed 200 OK in 249ms (Views: 248.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/ionicons.ttf?v=2.0.0" for 116.86.88.252 at 2017-01-18 06:06:47 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/ionicons.ttf"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (62.5ms)
+
+
+Started GET "/fonts/ionicons.woff?v=2.0.0" for 116.86.88.252 at 2017-01-18 06:06:47 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/fonts/ionicons.woff"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (61.2ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:08:52 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1276.9ms)
+Completed 200 OK in 1508ms (Views: 1496.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:09:28 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 60ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:10:35 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (41.6ms)
+Completed 200 OK in 4833ms (Views: 4831.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-59095e73df4946ecd2ddcc115436f7a47c67a8473337ea3af39bd78c9dab66b1.css?body=1" for 116.86.88.252 at 2017-01-18 06:10:41 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ionicons-2ba7f20b1d8990e17a47fe3d88e4c766628aaa2baf1dd30fca0a0db59836f5f9.ttf?v=2.0.0" for 116.86.88.252 at 2017-01-18 06:10:42 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:11:30 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 875ms (Views: 874.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ionicons.self-56c70118795fcea00524c8e350a7e0460e4ffefb9db26c4c969fa8b30719af98.css?body=1" for 116.86.88.252 at 2017-01-18 06:11:31 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-c89f83d459b096bb7ee91797cd54a200612a9ca96b72cb42a8c978c7ef008f3f.css?body=1" for 116.86.88.252 at 2017-01-18 06:11:31 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:11:56 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 76ms (Views: 75.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:12:14 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 47ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:14:21 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (39.4ms)
+Completed 200 OK in 260ms (Views: 258.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ionicons.ttf?v=2.0.0" for 116.86.88.252 at 2017-01-18 06:14:22 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:15:00 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (46.7ms)
+Completed 200 OK in 364ms (Views: 362.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-bc988381cc279640831fc20b32acc2f15d0d66aceb6951b453ab47593bc84dc6.css?body=1" for 116.86.88.252 at 2017-01-18 06:15:00 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/ionicons.ttf?v=2.0.0" for 116.86.88.252 at 2017-01-18 06:15:00 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:15:23 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 59ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ionicons.ttf?v=2.0.0" for 116.86.88.252 at 2017-01-18 06:15:23 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:15:30 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 75ms (Views: 74.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ionicons.ttf?v=2.0.0" for 116.86.88.252 at 2017-01-18 06:15:31 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:16:20 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (27.1ms)
+Completed 200 OK in 66ms (Views: 65.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ionicons.ttf?v=2.0.0" for 116.86.88.252 at 2017-01-18 06:16:21 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:16:45 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 87ms (Views: 85.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:17:12 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (40.3ms)
+Completed 200 OK in 102ms (Views: 100.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:17:39 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (24.9ms)
+Completed 200 OK in 70ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:18:08 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (25.1ms)
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'iconions' with type 'text/css'
+Checked in these paths: 
+  /home/ubuntu/rails_projects/omni-food/app/assets/images
+  /home/ubuntu/rails_projects/omni-food/app/assets/javascripts
+  /home/ubuntu/rails_projects/omni-food/app/assets/stylesheets
+  /home/ubuntu/rails_projects/omni-food/vendor/assets/javascripts
+  /home/ubuntu/rails_projects/omni-food/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.3.0/gems/jquery-rails-4.2.2/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.0/gems/ionicons-rails-2.0.0/vendor/assets/fonts
+  /usr/local/rvm/gems/ruby-2.3.0/gems/ionicons-rails-2.0.0/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.3.0/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.0/gems/turbolinks-source-5.0.0/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /usr/local/rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/images):
+    19:    
+    20: 
+    21:   
+    22:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    23:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    24:   <%= csrf_meta_tags %>
+    25: </head>
+  app/assets/stylesheets/application.css:15
+  app/views/layouts/application.html.erb:22:in `_app_views_layouts_application_html_erb__3735888605331365144_23063900'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (51.7ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:18:22 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 92ms (Views: 90.8ms | ActiveRecord: 0.0ms)
