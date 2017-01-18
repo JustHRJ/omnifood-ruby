@@ -1,0 +1,207 @@
+/* setting up rules for screens with width of 0 - 480px */
+/*small phones*/
+@media only screen and (max-width: 480px) {
+    section {
+        padding: 25ppx 0;
+    }
+    .btn:link,
+    .btn:visited {
+        font-size: 100%;
+        font-weight: 300;
+        padding: 6px;
+        margin: 0.5px;
+    }
+    .btn-ghost {
+        margin-left: 0;
+    }
+    
+    .btn-app img {
+        width: 50%;
+    }
+}
+
+/* setting up rules for screen with width of 0 - 767px (ipad) */
+/*small phones and tablets*/
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+    
+    section {
+        padding: 30px 0;
+    }
+    
+    .row,
+    .hero-text-box {
+        padding: 0.4%;
+    }
+    
+    .col {
+        width: 100%;
+        margin: 0% 0% 1% 0%;
+    }
+    
+    .main-nav {
+        float: left;
+        margin-left: 35px;
+        display: none;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:visited,
+    .main-nav li a:link {
+        display: block;
+        border: 0;
+        font-size: 100%;
+    }
+    
+    .sticky .mobile-nav-icon {
+        margin-top: 10px;
+    }
+    
+    .sticky .main-nav {
+        margin-top: 20px;
+    }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        color: #555;
+        display: block;
+        font-size: 100%;
+    }
+    
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    
+    .sticky .mobile-nav-icon .ion-navicon-round {
+        font-size:200%;
+        color: black;
+    }
+    
+    .sticky .mobile-nav-icon .ion-close-round {
+        font-size:200%;
+        color: black;
+    }
+    
+    h1 {
+        font-size: 160%;
+        margin-left: 0%;
+    }
+    
+    h2 {
+        font-size: 130%;
+    }
+    
+    h3 {
+        font-size: 110%;
+    }
+    
+    .works-step {
+        margin-bottom: 20px;
+    }
+    
+    .works-step div {
+       font-size: 120%;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        padding-top: 4px;
+        margin-right: 15px;
+    }
+    
+    .steps-box:first-child {
+        text-align: center;
+    }
+    
+    .app-screen {
+        width: 40%;
+    }
+    
+    .contact-form {
+        width: 100%;
+    }
+    
+    
+
+}
+
+/*setting up rules for screen with width of 0 - 1023*/
+/*small tablet to big tablet : 767 - 1023*/
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    } 
+    
+    section {
+        padding: 60px 0;
+    }
+    
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .steps-box {
+        margin-top: 10px;
+    }
+    
+    .steps-box:last-child {
+        margin-top: 30px;
+    }
+    
+    .works-step {
+        margin-bottom: 40px;
+    }
+    
+    .works-step:last-of-type {
+        margin-bottom: 60px;
+    }
+    
+    .app-screen {
+        width: 50%;
+    }
+    
+    .icon-small {
+        width: 17px;
+        margin-right: 5px;
+    }
+    
+    .city-features {
+        font-size: 75%;
+    }
+    
+    .plan-box {
+        width:100%;
+        margin-left: 0%;
+    }
+    
+    .plan-box li {
+        font-size: 70%;
+    }
+    
+    .plan-price {
+        font-size: 200%;
+    }
+    
+    .contact-form {
+        width: 80%;
+    }
+}
+
+/*Big tablet to small computer < 1140px*/
+@media only screen and (max-width: 1200px) {
+
+    .hero-text-box {
+        width: 100%;
+        padding: 0.2%;
+    }
+    
+    .row {
+        padding: 0.2%;
+    }
+}
+
