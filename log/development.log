@@ -5274,3 +5274,189 @@ Completed 200 OK in 356ms (Views: 354.1ms | ActiveRecord: 0.0ms)
 
 Started GET "/assets/script.self-264cbeb2be08c817c200130c03e76bdf340d4cc42bc25bd3960eae229c221e0f.js?body=1" for 116.86.88.252 at 2017-01-18 06:38:55 +0000
 Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 09:19:41 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1851.1ms)
+Completed 200 OK in 1981ms (Views: 1969.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo-9c5810ddd7ae02be9f6a8a0fe7388cfe8e8056f11f7f091ea420546de3abc8a8.png" for 116.86.88.252 at 2017-01-18 09:19:44 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/quries.self-e0a225174ac5ef8104317e6b874134645c3681664101bc0ad815d5ba8b0932c6.css?body=1" for 116.86.88.252 at 2017-01-18 09:19:44 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 09:25:11 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (52.1ms)
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/rails_projects/omni-food/app/views/layouts/application.html.erb:9: syntax error, unexpected '<'
+      <!-- CSS files from vendors -->
+       ^
+/home/ubuntu/rails_projects/omni-food/app/views/layouts/application.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+      <!-- CSS files from vendors -->
+                    ^
+/home/ubuntu/rails_projects/omni-food/app/views/layouts/application.html.erb:9: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/ubuntu/rails_projects/omni-food/app/views/layouts/application.html.erb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...leapis.com/css?family=Lato" rel="stylesheet">
+...                               ^
+/home/ubuntu/rails_projects/omni-food/app/views/layouts/application.html.erb:12: syntax error, unexpected '<'
+      <%= stylesheet_link_tag    'ap...
+       ^):
+  app/views/layouts/application.html.erb:9: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/layouts/application.html.erb:9: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+  app/views/layouts/application.html.erb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/views/layouts/application.html.erb:12: syntax error, unexpected '<'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (26.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (98.4ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 09:25:40 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (464.5ms)
+Completed 500 Internal Server Error in 490ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/rails_projects/omni-food/app/views/layouts/application.html.erb:9: syntax error, unexpected '<'
+      <!-- CSS files from vendors -->
+       ^
+/home/ubuntu/rails_projects/omni-food/app/views/layouts/application.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+      <!-- CSS files from vendors -->
+                    ^
+/home/ubuntu/rails_projects/omni-food/app/views/layouts/application.html.erb:9: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+/home/ubuntu/rails_projects/omni-food/app/views/layouts/application.html.erb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...leapis.com/css?family=Lato" rel="stylesheet">
+...                               ^
+/home/ubuntu/rails_projects/omni-food/app/views/layouts/application.html.erb:12: syntax error, unexpected '<'
+      <%= stylesheet_link_tag    'ap...
+       ^):
+  app/views/layouts/application.html.erb:9: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  app/views/layouts/application.html.erb:9: syntax error, unexpected '\n', expecting keyword_do_LAMBDA or tLAMBEG
+  app/views/layouts/application.html.erb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/views/layouts/application.html.erb:12: syntax error, unexpected '<'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (42.7ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 09:26:03 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (30.3ms)
+Completed 500 Internal Server Error in 69ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `meta_tag' for #<#<Class:0x00000002186af8>:0x007fd3fdd0cd38>
+Did you mean?  method_tag):
+    3: <head>
+    4:   <title>OmniFood</title>
+    5:    <meta charset="utf-8">
+    6:       <% meta_tag name: 'viewport', content: 'width=device-width, initial-scale = 1.0' %>
+    7:       <% meta_tag name: 'description', content: 'omnifood is a premium food delivery service which are affordable and healthy dietary right to your doorstep' %>
+    8:       
+    9:       <!-- CSS files from vendors -->
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___4119383400100111292_70274241793540'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (59.9ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 09:26:36 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (72.1ms)
+Completed 200 OK in 165ms (Views: 163.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 09:32:10 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (22.8ms)
+Completed 200 OK in 124ms (Views: 123.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/quries.self-dc7d5f865f07cb62de7400615c762e5daf99ca2f3cdabe7871d4ef1d333919b8.css?body=1" for 116.86.88.252 at 2017-01-18 09:32:11 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 09:33:05 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (42.5ms)
+Completed 200 OK in 174ms (Views: 171.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/quries.self-463b610af510545a8aa8daeb472746067dda808b39008e20054637ea7c4abe15.css?body=1" for 116.86.88.252 at 2017-01-18 09:33:06 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 09:34:28 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 108ms (Views: 107.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 09:35:26 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (25.9ms)
+Completed 200 OK in 111ms (Views: 110.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/quries.self-abc134ccf47796b8af4d00388c4840b2c399355ee49bdb78860913b53e8ee33e.css?body=1" for 116.86.88.252 at 2017-01-18 09:35:27 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 09:35:53 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (31.5ms)
+Completed 200 OK in 191ms (Views: 189.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 09:36:29 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (25.1ms)
+Completed 200 OK in 58ms (Views: 57.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 09:38:15 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (35.2ms)
+Completed 200 OK in 137ms (Views: 136.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/script.self-07a8af27d91418f92846715dd67606ae1dfc0266b74cd5a85085414cb5a66892.js?body=1" for 116.86.88.252 at 2017-01-18 09:38:16 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 10:27:42 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (39.4ms)
+Completed 200 OK in 176ms (Views: 174.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/script.self-52f2db0541131d759f692f30f529662d76d96f078dff1f4ef4551548eb27b2f1.js?body=1" for 116.86.88.252 at 2017-01-18 10:27:43 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
