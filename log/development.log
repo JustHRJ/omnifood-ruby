@@ -5173,3 +5173,104 @@ Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.
 Processing by WelcomeController#index as HTML
   Rendered welcome/index.html.erb within layouts/application (22.0ms)
 Completed 200 OK in 92ms (Views: 90.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:33:47 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (423.3ms)
+Completed 200 OK in 487ms (Views: 478.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?class=btn+btn-full+scroll-plans" for 116.86.88.252 at 2017-01-18 06:33:53 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"btn btn-full scroll-plans"}
+  Rendered welcome/index.html.erb within layouts/application (164.1ms)
+Completed 200 OK in 206ms (Views: 205.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?class=btn+btn-full+scroll-plans" for 116.86.88.252 at 2017-01-18 06:33:56 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"btn btn-full scroll-plans"}
+  Rendered welcome/index.html.erb within layouts/application (134.6ms)
+Completed 200 OK in 186ms (Views: 185.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?class=btn+btn-full+scroll-plans" for 116.86.88.252 at 2017-01-18 06:33:57 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"btn btn-full scroll-plans"}
+  Rendered welcome/index.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 72ms (Views: 71.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?class=btn+btn-full+scroll-plans" for 116.86.88.252 at 2017-01-18 06:33:58 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"btn btn-full scroll-plans"}
+  Rendered welcome/index.html.erb within layouts/application (28.3ms)
+Completed 200 OK in 71ms (Views: 70.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?class=btn+btn-full+scroll-plans" for 116.86.88.252 at 2017-01-18 06:34:00 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"btn btn-full scroll-plans"}
+  Rendered welcome/index.html.erb within layouts/application (37.3ms)
+Completed 200 OK in 118ms (Views: 117.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?class=btn+btn-full+scroll-plans" for 116.86.88.252 at 2017-01-18 06:34:02 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"class"=>"btn btn-full scroll-plans"}
+  Rendered welcome/index.html.erb within layouts/application (26.4ms)
+Completed 200 OK in 69ms (Views: 68.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:34:35 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (486.1ms)
+Completed 200 OK in 629ms (Views: 601.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:34:41 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 65ms (Views: 63.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:34:43 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (31.0ms)
+Completed 200 OK in 86ms (Views: 85.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:34:44 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (233.1ms)
+Completed 200 OK in 387ms (Views: 384.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:37:57 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (22.9ms)
+Completed 200 OK in 103ms (Views: 102.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 06:38:54 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (80.3ms)
+Completed 200 OK in 356ms (Views: 354.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/script.self-264cbeb2be08c817c200130c03e76bdf340d4cc42bc25bd3960eae229c221e0f.js?body=1" for 116.86.88.252 at 2017-01-18 06:38:55 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255

@@ -32,10 +32,12 @@ $(document).ready(function() {
      
     $('.scroll-plans').click(function() {
         $('html, body').animate({scrollTop: $('.js-plans').offset().top}, 1000);
+        return false;
     });
     
     $('.scroll-features').click(function() {
         $('html, body').animate({scrollTop: $('.js-features').offset().top}, 1000);
+        return false;
     });
     
     $(function() {
