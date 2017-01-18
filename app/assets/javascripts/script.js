@@ -68,6 +68,8 @@ $(document).ready(function() {
             icon.addClass('ion-navicon-round');
             icon.removeClass('icon ion-close-round');
         }
+        
+        return false;
     });
     
 });

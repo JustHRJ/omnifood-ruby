@@ -5460,3 +5460,144 @@ Completed 200 OK in 176ms (Views: 174.8ms | ActiveRecord: 0.0ms)
 
 Started GET "/assets/script.self-52f2db0541131d759f692f30f529662d76d96f078dff1f4ef4551548eb27b2f1.js?body=1" for 116.86.88.252 at 2017-01-18 10:27:43 +0000
 Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 10:30:19 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (26.2ms)
+Completed 200 OK in 146ms (Views: 145.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 10:30:57 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (38.8ms)
+Completed 200 OK in 2406ms (Views: 2404.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/quries.self-9a68e42e594c003cc2aa0d28c78abc4a0c76da2342bdfb7b90addc98e2a28573.css?body=1" for 116.86.88.252 at 2017-01-18 10:31:00 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/style.self-bc988381cc279640831fc20b32acc2f15d0d66aceb6951b453ab47593bc84dc6.css?body=1" for 116.86.88.252 at 2017-01-18 10:31:01 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 10:31:40 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (22.8ms)
+Completed 200 OK in 100ms (Views: 99.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for 116.86.88.252 at 2017-01-18 10:31:41 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 10:32:02 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 118ms (Views: 117.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/quries.self-aa2fa9320953fe7f3dfe2a326159875c75bc5cbbe51e89b59d08ddf5ca43eb4d.css?body=1" for 116.86.88.252 at 2017-01-18 10:32:03 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 10:32:06 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 61ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 10:32:48 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (67.0ms)
+Completed 200 OK in 316ms (Views: 314.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/quries.self-71f04ee86770d8463bb473cbb6c21950a4f883c21bf54a4be468a2eae7ba89eb.css?body=1" for 116.86.88.252 at 2017-01-18 10:32:48 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 10:33:51 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 174ms (Views: 173.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/quries.self-abf182dd396c8197f58f5f7ba4b87c6122cb72ff233222cde133c4af0ad45ff4.css?body=1" for 116.86.88.252 at 2017-01-18 10:33:52 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 10:39:12 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (76.1ms)
+Completed 200 OK in 215ms (Views: 212.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 10:39:51 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 132ms (Views: 131.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/script.self-3b706432f86973fcf2e48e6b07e8738bb293a94c36f5c6bfccf91d5472825583.js?body=1" for 116.86.88.252 at 2017-01-18 10:39:52 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 10:40:20 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (25.1ms)
+Completed 200 OK in 100ms (Views: 98.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/quries.self-8c2713531f8e23bf7f49f1a268e8b5178a5332932e9c827f1650174497a9dae6.css?body=1" for 116.86.88.252 at 2017-01-18 10:40:22 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 10:40:54 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (161.3ms)
+Completed 200 OK in 324ms (Views: 322.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/quries.self-b04e617fea3dabf984b14e69f79dac46115ccca194e11ecabb5ceb57a7758ec6.css?body=1" for 116.86.88.252 at 2017-01-18 10:40:55 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 10:47:08 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 95ms (Views: 93.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 10:48:08 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 56ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 10:48:32 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (23.7ms)
+Completed 200 OK in 96ms (Views: 95.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 116.86.88.252 at 2017-01-18 10:49:41 +0000
+Cannot render console from 116.86.88.252! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (28.6ms)
+Completed 200 OK in 88ms (Views: 86.9ms | ActiveRecord: 0.0ms)

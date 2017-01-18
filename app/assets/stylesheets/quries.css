@@ -4,7 +4,6 @@
     section {
         padding: 25px 0;
     }
-    
     .btn:link,
     .btn:visited {
         font-size: 100%;
@@ -12,7 +11,6 @@
         padding: 6px;
         margin: 0.5px;
     }
-    
     .btn-ghost {
         margin-left: 0;
     }
@@ -79,12 +77,12 @@
         display: inline-block;
     }
     
-    .sticky .mobile-nav-icon .icon .ion-navicon-round {
+    .sticky .mobile-nav-icon .ion-navicon-round {
         font-size:200%;
         color: black;
     }
     
-    .sticky .mobile-nav-icon .icon .ion-close-round {
+    .sticky .mobile-nav-icon .ion-close-round {
         font-size:200%;
         color: black;
     }
